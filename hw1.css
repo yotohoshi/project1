@@ -1,0 +1,193 @@
+* {
+    font-family: 'Arimo', sans-serif; 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    margin-bottom: 60px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 100%;
+    color: white;
+    width: 100%;
+    background-color: grey;
+}
+
+hr {
+    color: lightgrey;
+    border: solid 1px;
+    width: 80%;
+}
+
+input {
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type="text"] {
+    padding: 10px
+}
+
+input[type="checkbox"] {
+    width: 5%;
+}
+
+li, a{
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+li:hover, button:hover {
+    background-color: green;
+}
+
+p, h2, h3, label, input {
+    align-content: center;
+    margin: 10px 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.bottom {
+    flex: 4;
+}
+
+
+
+.cards {
+    margin: 0 10% 10px 0;
+}
+
+.cart {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    width: 55%;
+    margin: 100px auto;
+    border: solid 2px lightgrey;
+    padding: 10px;
+}
+
+.cartbox {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.cartbox > div{
+    margin: 0 10px 80px 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: solid 1px lightgrey;
+}
+
+.circle {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    border-radius: 50%;
+    left: 49.2%;
+}
+
+.container_l {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+.container_r {
+    align-items: center;
+    margin-left: 5px;
+}
+
+.left, .right {
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.left::before, .right::before {
+    content: " ";
+    position: absolute;
+    left: 47.5%;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+.leftbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftbox > div {
+    width: 42%;
+    margin: 0 4%;
+}
+
+.item {
+    color: purple;
+    padding: 0;
+}
+
+.price {
+    color: grey;
+}
+
+.right::before {
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent; 
+    left: 51.7%;
+}
+
+.rightbox {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 250px;
+}
+
+.rightbox > div {
+    justify-content: space-between;
+    display: flex;
+    margin: 2% 10%;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.timeline > div {
+    background-color: #7171be;
+    display: flex;
+}
+
+
+
+
+
+
